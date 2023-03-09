@@ -1,0 +1,228 @@
+
+body{background-color: #ffffff;line-height:1; font-family:arial; font-size:small;}
+
+*{
+    line-height: normal;
+}
+
+.contenedor{
+    display: flex;
+}
+
+
+
+#cuadroimagen{
+    text-align: center;
+    width: 50%;
+}
+
+#foto{
+    position: relative; 
+    height: 100%; 
+    width: 90%; 
+    padding: 0px;
+    border-radius: 70%;
+    box-shadow: 5px 2px 5px 5px rgba(32,32,32,0.3);
+    cursor: pointer;
+}
+#foto:hover{
+    box-shadow: 7px 4px 7px 7px rgba(32,32,32,0.3);
+}
+
+h1{
+    font-size:19px;
+}
+h2{
+    font-size:21px;
+}
+p{
+    font-size:17px;
+}
+h4{
+    font-size:25px;
+    text-align: center;
+    margin: 30px 10px 15px;
+}
+
+
+
+
+#bloquelat1{
+    text-align: left;
+    width: 50%;
+    height: 100%; 
+    margin: 150px 10px 30px;
+    padding:10px;
+    background-color: #98bde0;
+    border-radius: 5%;
+    box-shadow: 5px 2px 5px 5px rgba(32,32,32,0.3);
+}
+
+#barralateral {
+    width: 100%;
+    height: 100%;
+    float: left;    
+    background: #e1e8f7;
+    border-radius: 3%;
+    box-shadow: 5px 2px 5px 5px rgba(32,32,32,0.3);
+}
+
+#bloquelat:hover, #bloquelat2:hover,#bloquelat1:hover {
+    box-shadow: 7px 4px 7px 7px rgba(32,32,32,0.3);
+}
+#bloquelat{
+    margin: 30px 10px 10px;
+    background-color: #98bde0;
+    border-color: rgb(50, 60, 146)!important;
+    border-left: 6px solid;
+    width: auto;
+    height: 100%;    
+    padding:10px;
+    box-shadow: 5px 2px 5px 5px rgba(32,32,32,0.3);
+     
+}
+
+#bloquelat2{
+    display:none;
+    /*
+    margin: 30px 10px 10px;
+    background-color: #368a8a;
+    height: 100px;    
+    padding:10px;
+    */
+}
+
+#bloqueiconos{
+    text-align: center;
+    height: 50px;
+    width: auto;
+    margin: 10px;
+    padding-left: 0px;
+    overflow: hidden;
+
+}
+
+li{
+    margin: 4px 10px 4px 10px;
+    font-size: 17px;
+}
+i{
+    color: rgb(30, 30, 70);
+    font-size: xx-large;    
+    margin: 10px;
+    cursor: pointer;
+    display: list-item;
+    transition: all;
+    
+}
+i:hover{
+    color: rgb(33, 84, 151);
+}
+
+#titulo{
+    text-align: center;
+}
+.datos{
+    display: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+#social{
+    font-weight: bold;
+    margin: 20px 0px 20px 40px;
+}
+
+
+
+@media only screen and (max-width: 820px){
+    
+    
+    body{
+        background-color: #ffffff;
+        font-family:arial;
+        font-size:small;
+    }
+    #cuadroimagen{
+        text-align: center;
+        width: 100%;
+    }
+    #foto{        
+        
+        height: auto;
+        width: 96%;
+        padding: 0px;
+        margin: 10px;
+    }
+    h1{
+        font-size:20px;
+    }
+    h2{
+        font-size:18px;
+    }
+    p{
+        font-size:18px;
+    }
+    h4{
+        font-size:25px; margin: 30px 10px 5px; 
+    }
+    #barralateral {
+        width: auto;
+        height: 100%;
+        float: left;
+        background: #e1e8f7;
+        border-radius: 3%;
+        box-shadow: 5px 2px 5px 5px rgba(32,32,32,0.3);
+    }
+    #bloquelat{
+        margin: 30px 10px 10px;
+        background-color: #98bde0;
+        border-color: rgb(50, 60, 146)!important;
+        border-left: 6px solid;
+        width: auto;
+        height: 100%;        
+        padding:10px;
+    }
+    #bloquelat:hover, #bloquelat2:hover {
+        box-shadow: 7px 4px 7px 7px rgba(32,32,32,0.3);
+    }
+    #bloquelat1{
+        display: none;
+        margin: 30px 10px 10px;
+        background-color: #368a8a;
+        width: auto;
+        height: 100%;        
+        padding:10px;
+    }
+    #bloquelat2{
+        display: block;
+        margin: 30px 10px 10px;
+        background-color: #98bde0;
+        border-color: rgb(50, 60, 146)!important;
+        border-left: 6px solid;
+        width: auto;
+        height: 100%;        
+        padding:10px;
+        box-shadow: 5px 2px 5px 5px rgba(32,32,32,0.3);
+    }
+    #bloqueiconos{
+        width: auto;
+        height: auto;        
+        margin: 10px;
+        padding-left: 0px;
+    
+    }
+    li{
+        margin: 4px 10px 4px 10px;
+    }
+    i{
+        color: rgb(30, 30, 70);
+        font-size: xx-large;
+        margin: 10px;
+    }
+    .imagen{
+        text-align: center;
+
+    }
+}
+
